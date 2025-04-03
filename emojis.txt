@@ -1,6 +1,7 @@
 🐶:chien,chiot,chio
 🐻:ourse,ours,ource
 🦁:llion,lion,lyon
+🐮a:voi
 🐮:veau,vo,vau
 🐷:pore,porc,por
 ♠️:pique,piqu,piq,pic,pik
@@ -33,6 +34,8 @@
 🚉:gare,gar
 ⌛:temps,tem,tant,tan,tent,ten
 ⏱️:chrono
+👼é:angé,engé
+👼i:angi,engi
 👼:anges,ange,anj,enj,enge
 🐱:chat,cha,sha
 🌹:rose,roze,ros,roz
@@ -57,7 +60,8 @@
 🍕:pizza,piza,pisa
 🌮:taco,tako
 🥘:plat,pla
-🪴:po,peau
+🪴a:poi
+🪴:po,peau,pô
 🍚:riz,ri
 🍨:glace,glac,glass
 🍮:flan
@@ -76,7 +80,7 @@
 🔑:clef,clé,clai
 🔋:pile,pil,pyl
 🛏️:lit,li,ly
-🗿:moai
+🗿:moai,moaï
 👀:yeux,yeu,illeux,illeu
 🎿:ski,squi
 🧤:gants,gant,gan
@@ -84,6 +88,7 @@
 🩴:tong
 🌞:étée,été
 😀:joie,joi,joy
+🫵:toi
 😂:rir
 🕳️:trou
  🔊 : sont 
@@ -117,6 +122,7 @@
 🌉:pont,pon,pom
 🎒:ssaq,ssac,ssak,sac,saq,sak
 🥊:boxe,box
+👢:botte,bote
 ♨:chaud,chaux,chau,cho
 ⚰️:mort,mor
 📯:cor
@@ -165,7 +171,7 @@ i1️⃣:ien
 🧙:mage,mag,maj
 🙅:non
 🧑‍⚖️:juge,jug,juj
-1️⃣:une,un,hein,ain,ein,in
+1️⃣:une,un,hein,ain,ein,in,im
 2️⃣:deux,deu,de
 🇧:bé
 🇨:cé,ssé,ces,c'est
@@ -184,8 +190,8 @@ i1️⃣:ien
 🇷:ère,èr,aire,air,er
 🇸:hess,èss,èce,ès
 🇹:té
-🇻:vé
 🇼:double vé
+🇻:vé
 🇽:ix,ics
 🇾:igrec,ygrec,i grec,y grec,i grèc, y grec
 🇿:zed,zèd
@@ -193,6 +199,11 @@ OU:ou,où
 ON:on
 OI:oi
 💧:eau,o,au,ô
+AN:an
+AI:ai
+🅰️:a
+an:AN
+ai:AI
 oi:OI
 on:ON
 ou:OU

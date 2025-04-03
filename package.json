@@ -1,0 +1,25 @@
+{
+  "name": "rebus-fr",
+  "version": "0.1.1",
+  "description": "Transform french texts to rebus",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptlc8/rebus.git"
+  },
+  "keywords": [
+    "rebus",
+    "french",
+    "fr",
+    "emojis"
+  ],
+  "author": "Ambi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptlc8/rebus/issues"
+  },
+  "homepage": "https://github.com/ptlc8/rebus#readme"
+}
