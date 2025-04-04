@@ -1,4 +1,6 @@
 var fs = require("fs");
+const emojisMapping = require("./emojis.mapping");
+const phoneticMapping = require("./phonetic.mapping");
 
 function createRebus(text, { file } = {}) {
 
@@ -20,4 +22,23 @@ function createRebus(text, { file } = {}) {
     return rebus;
 }
 
-module.exports = { createRebus };
+/**
+ * @param {string} text 
+ * @returns {string}
+ */
+function toPhonetic(text) {
+    var phonetic = text.toLowerCase();
+    for (const [ pattern, phonem ] of phoneticMapping) {
+        let regex = new RegExp(pattern, "m");
+        while (phonetic.match(regex)) {
+            phonetic = phonetic.replace(regex, phonem);
+        }
+        //console.log(phonetic, pattern);
+    }
+    return phonetic;
+}
+
+module.exports = {
+    createRebus,
+    toPhonetic
+};
