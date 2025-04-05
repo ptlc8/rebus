@@ -45,6 +45,7 @@ checkEquals(
 );
 
 
-checkEquals(toRebus("Mon chat a mangé un poisson"), "Ⓜ️on 🐱 🅰️ Ⓜ️👼é 1️⃣ 🪴🅰️🔊");
-checkEquals(toRebus("L'imprimeur de paris vend son âme au démon"), "l'1️⃣🅿🍚Ⓜ️🥚r 2️⃣ 👣🍚s 🍃d 🔊 âⓂ️e 💧 🎲Ⓜ️on");
-checkEquals(toRebus("Antoine se rabote dans son lit joyeusement"), "📅🫵🪢 se 🐀👢 🦷 🔊 🛏️ 😀🥚seⓂ️📅t");
+checkEquals(toRebus("Antoine a mangé tout le chocolat noir"), "📅🫵🪢 🅰️ m👼é tou l🇪 ♨k💧l🅰️ ⚫");
+checkEquals(toRebus("Mon chat a mangé un poisson"), "🗻 🐱 🅰️ m👼é 1️⃣ 🪴🅰️🔊");
+checkEquals(toRebus("L'imprimeur de paris vend son âme au démon"), "l1️⃣p🍚m🥚r 2️⃣ 🍰i 🍃 🔊 🅰️m 💧 🎲🗻");
+checkEquals(toRebus("Antoine se rabote dans son lit joyeusement"), "📅🫵🪢 s🇪 🐀👢 🦷 🔊 🛏️ 😀👀s🇪m📅");

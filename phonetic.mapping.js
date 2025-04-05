@@ -15,6 +15,8 @@ module.exports = `
 û:u
 ù:u
 
+# TODO: des, les, tes...
+
 #
 j'*:ʒ
 g([eéèiïy]):ʒ$1
