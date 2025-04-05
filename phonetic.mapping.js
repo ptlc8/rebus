@@ -96,11 +96,12 @@ v:vv+
 
 # remove letter without sounds
 :h
+ɛʁ$1:əʁs(\\s|$)
 $1:s(\\s|$)
 ie$1:iəd(\\s|$)
 edə$1:əd(\\s|$)
 $1:d(\\s|$)
-e$1:ər(\\s|$)
+e$1:əʁ(\\s|$)
 $1:t(\\s|$)
 ɔm$1:ym(\\s|$)
 $1$2:(\\S\\S)ə(\\s|$)
