@@ -28,11 +28,11 @@ checkEquals(
 );
 checkEquals(
     toPhonetic("Il s'agit d'une représentation mythologique de l'Amour, personnalisé par un Cupidon ailé qui prend les traits d'un adolescent souriant et entièrement nu."),
-    "il saʒi dyn ʁəpʁesɑ̃tasiɔ̃ mytoloʒik də lamuʁ, pəʁsɔnalise paʁ ɛ̃ kypidɔ̃ ɛle ki pʁɑ̃ lə tʁɛ dɛ̃ adoləsɑ̃ suʁiɑ̃ ɛ ɑ̃tiɛʁəmɑ̃ ny."
+    "il saʒi dyn ʁəpʁesɑ̃tasiɔ̃ mitoloʒik də lamuʁ, pəʁsɔnalise paʁ ɛ̃ kypidɔ̃ ɛle ki pʁɑ̃ lə tʁɛ dɛ̃ adoləsɑ̃ suʁiɑ̃ ɛ ɑ̃tiɛʁəmɑ̃ ny."
 );
 checkEquals(
     toPhonetic("Le dieu tient des flèches à la main et il foule aux pieds différents symboles artistiques et scientifiques (instruments de musique abîmés, instruments de mesure, livres, cuirasse d'armure, etc.) signifiant ainsi la suprématie de l'Amour sur toutes choses — d'où le titre actuel, tiré du vers ovidien Omnia vincit amor, c'est-à-dire : « l'Amour triomphe de tout »."),
-    "lə diø tjɛ̃ də flɛʃ a la mɛ̃ ɛ il ful o pie difeʁɑ̃ symbol aʁtistik ɛ siɑ̃tifik (ɛ̃stʁymɑ̃ də mysik abime, ɛ̃stʁymɑ̃ də məsyʁ, livʁ, kyiʁas daʁmyʁ, ətk.) siɲifiɑ̃ ɛ̃si la sypʁemasi də lamuʁ syʁ tut ʃos — du lə titʁ aktyəl, tiʁe dy vəʁ ovidjɛ̃ ɔmnia vɛ̃si amɔʁ, səst-a-diʁ : « lamuʁ tʁiɔ̃f də tu »."
+    "lə diø tjɛ̃ də flɛʃ a la mɛ̃ ɛ il ful o pie difeʁɑ̃ sɛ̃bol aʁtistik ɛ siɑ̃tifik (ɛ̃stʁymɑ̃ də mysik abime, ɛ̃stʁymɑ̃ də məsyʁ, livʁ, kɥiʁas daʁmyʁ, ətk.) siɲifiɑ̃ ɛ̃si la sypʁemasi də lamuʁ syʁ tut ʃos — du lə titʁ aktyəl, tiʁe dy vəʁ ovidjɛ̃ ɔmnia vɛ̃si amɔʁ, səst-a-diʁ : « lamuʁ tʁiɔ̃f də tu »."
 );
 checkEquals(
     toPhonetic("Composée au moment où Caravage commence déjà à connaître une grande renommée dans le milieu artistique romain, la toile est une commande du marquis Vincenzo Giustiniani, pour qui cette œuvre représente la pièce maîtresse de sa splendide collection."),
@@ -40,9 +40,9 @@ checkEquals(
 );
 checkEquals(
     toPhonetic("En hommage au commanditaire, plusieurs éléments présents dans le tableau mettent en lumière son identité et ses vertus, à travers une symbolique complexe dont les clés font encore débat."),
-    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plysiøʁ elemɑ̃ pʁesɑ̃ dɑ̃ lə tablo mətɑ̃ ɑ̃ lymiɛʁ sɔ̃ idɑ̃tite ɛ sə vəʁty, a tʁavəʁ yn symbolik kɔ̃pləks dɔ̃ lə kle fɔ̃ ɑ̃kɔʁ deba."
+    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plysiøʁ elemɑ̃ pʁesɑ̃ dɑ̃ lə tablo mətɑ̃ ɑ̃ lymiɛʁ sɔ̃ idɑ̃tite ɛ sə vəʁty, a tʁavəʁ yn sɛ̃bolik kɔ̃pləks dɔ̃ lə kle fɔ̃ ɑ̃kɔʁ deba."
 );
 checkEquals(
     toPhonetic("La toile témoigne également de la forte rivalité entre peintres dans le milieu romain du début du XVIIe siècle, notamment entre Caravage et Giovanni Baglione, qui, relevant le défi, produit lui aussi un Amour divin pour le cardinal Benedetto Giustiniani, frère du marquis."),
-    "la twal temwaɲ eɡaləmɑ̃ də la fɔʁt ʁivalite ɑ̃tʁ pɛ̃tʁ dɑ̃ lə miliø ʁɔmɛ̃ dy deby dy ksvi siɛkl, notamɑ̃ ɑ̃tʁ kaʁavaʒ ɛ ʒiovani baɡliɔn, ki, ʁələvɑ̃ lə defi, pʁodyi lyi osi ɛ̃ amuʁ divɛ̃ puʁ lə kaʁdinal bənədəto ʒiystiniani, fʁɛʁ dy maʁki."
+    "la twal temwaɲ eɡaləmɑ̃ də la fɔʁt ʁivalite ɑ̃tʁ pɛ̃tʁ dɑ̃ lə miliø ʁɔmɛ̃ dy deby dy ksvii siɛkl, notamɑ̃ ɑ̃tʁ kaʁavaʒ ɛ ʒiovani baɡliɔn, ki, ʁələvɑ̃ lə defi, pʁodɥi lɥi osi ɛ̃ amuʁ divɛ̃ puʁ lə kaʁdinal bənədəto ʒiystiniani, fʁɛʁ dy maʁki."
 );
