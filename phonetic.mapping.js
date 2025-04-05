@@ -1,118 +1,118 @@
 module.exports = `
 # exceptions
-$1 ,:(\\S),
-$1 .:(\\S)\\.
-$1è$2:([\\s'^])est(\\s|$)
-$1vagon$2:([^\\s])wagon(s?(\\s|$))
+(\\S),:$1 ,
+(\\S)\\.:$1 .
+([\\s'^])est(\\s|$):$1è$2
+([^\\s])wagon(s?(\\s|$)):$1vagon$2
 
 # remove phonetically useless accents
-a:â
-a:à
-é:æ
-è:ê
-è:ë
-i:î
-u:û
-u:ù
+â:a
+à:a
+æ:é
+ê:è
+ë:è
+î:i
+û:u
+ù:u
 
 #
-ʒ:j'*
-ʒ$1:g([eéèiïy])
-ɡij:guill
-ɡ$1:gu([^y\\s])
-ŋ$1:ng(\\s|$)
-ɡ:g
-k:qu|q'*
-$1z$2:(aeéèiïouüyœ)s(aeéèiïouüyœ)
-s$1:c([eéèiïy])
-v:w
+j'*:ʒ
+g([eéèiïy]):ʒ$1
+guill:ɡij
+gu([^y\\s]):ɡ$1
+ng(\\s|$):ŋ$1
+g:ɡ
+qu|q'*:k
+(aeéèiïouüyœ)s(aeéèiïouüyœ):$1z$2
+c([eéèiïy]):s$1
+w:v
 
 # nasals
-jɛ̃$1:[iy]en([td]?s?(\\s|$))
-ɑ̃$2:(a|e)n([^naeéèiïouüyœɑ]|$)
-ɑ̃$2:(a|e)m([bp])
-ɔ̃$1:on([^naeéèiïouüyœɑɔ]|$)
-ɔ̃$1:om([bp])
-ɛ̃$2:(ai|ei|i|u|y)n([^naeéèiïouüyœɑɔɛ]|$)
-ɛ̃$2:(ai|ei|i|u|y)m([bp])
+[iy]en([td]?s?(\\s|$)):jɛ̃$1
+(a|e)n([^naeéèiïouüyœɑ]|$):ɑ̃$2
+(a|e)m([bp]):ɑ̃$2
+on([^naeéèiïouüyœɑɔ]|$):ɔ̃$1
+om([bp]):ɔ̃$1
+(ai|ei|i|u|y)n([^naeéèiïouüyœɑɔɛ]|$):ɛ̃$2
+(ai|ei|i|u|y)m([bp]):ɛ̃$2
 
 # voyelles combos
-aj$2:ail(le)?(\\s|$)
-èj$2:eil(le)?(\\s|$)
-œj$2:euil(le)?(\\s|$)
-ouj$2:ouil(le)?(\\s|$)
-è:ai|ei
-èj:[ae]y
-è$1:et(\\s|$)
-é$1:ez(\\s|$)
-wa:oi
-waj:oy
-ø:eu
-œ:œu
-wɛ̃:oɛ̃
-w$1:ou([aèéiɛ])
-q:ou
-ɔ$1:o([rnm])
-o:ô
-o:e?au
-$1j:(\\s|^)y
-ɥij$1:uy([aeéèiïouüyœɑɔv])
-i:y
-ɥi:ui
+ail(le)?(\\s|$):aj$2
+eil(le)?(\\s|$):èj$2
+euil(le)?(\\s|$):œj$2
+ouil(le)?(\\s|$):ouj$2
+ai|ei:è
+[ae]y:èj
+et(\\s|$):è$1
+ez(\\s|$):é$1
+oi:wa
+oy:waj
+eu:ø
+œu:œ
+oɛ̃:wɛ̃
+ou([aèéiɛ]):w$1
+ou:q
+o([rnm]):ɔ$1
+ô:o
+e?au:o
+(\\s|^)y:$1j
+uy([aeéèiïouüyœɑɔv]):ɥij$1
+y:i
+ui:ɥi
 
 # voyelles combotables non combotées
-ɛ:è
-ə:e
-e:é
-i:[ïÿ]
-u:ü
-y:u
-u:q
+è:ɛ
+e:ə
+é:e
+[ïÿ]:i
+ü:u
+u:y
+q:u
 
 
 
 # consonnes combos
-ʃ:[cs]h
-ɲ:ɡn
-f:ff+|ph
+[cs]h:ʃ
+ɡn:ɲ
+ff+|ph:f
 
 # autre consonnes
-$1:z(\\s|$)
-b:bb+
-d:dd+|d'+
-l:ll+|l'+
-m:mm+|m'+
-n:nn+|n'+
-p:pp+
-$1:x(\\s|$)
-ks:x|cc+
-s:ss+|ç|c'+|s'+
-k:c
-k:kk+|k'+
-$1s$2:([^st\\s])t(i[aœəeøoɔyuɑɔ]|iɛ̃)
-t:tt+|t'+
-v:vv+
-ʁ:r+
+z(\\s|$):$1
+bb+:b
+dd+|d'+:d
+ll+|l'+:l
+mm+|m'+:m
+nn+|n'+:n
+pp+:p
+x(\\s|$):$1
+x|cc+:ks
+ss+|ç|c'+|s'+:s
+c:k
+kk+|k'+:k
+([^st\\s])t(i[aœəeøoɔyuɑɔ]|iɛ̃):$1s$2
+tt+|t'+:t
+vv+:v
+r+:ʁ
 
 # remove letter without sounds
-:h
-ɛʁ$1:əʁs(\\s|$)
-$1:s(\\s|$)
-ie$1:iəd(\\s|$)
-edə$1:əd(\\s|$)
-$1:d(\\s|$)
-e$1:əʁ(\\s|$)
-$1:t(\\s|$)
-ɔm$1:ym(\\s|$)
-$1$2:(\\S\\S)ə(\\s|$)
+h:
+əʁs(\\s|$):ɛʁ$1
+s(\\s|$):$1
+iəd(\\s|$):ie$1
+əd(\\s|$):edə$1
+d(\\s|$):$1
+əʁ(\\s|$):e$1
+t(\\s|$):$1
+ym(\\s|$):ɔm$1
+(\\S\\S)ə(\\s|$):$1$2
 
-,: ,
-.: \\.
+ ,:,
+ \\.:.
 `
 .split("\n")
 .filter(line => !line.startsWith("#") && line.length != 0)
 .map(line => {
-    var pattern = line.split(":")[1];
-    var phonem = line.split(":")[0];
+    var pattern = line.split(":")[0];
+    var phonem = line.split(":")[1];
     return [ pattern, phonem ];
 });

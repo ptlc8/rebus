@@ -1,4 +1,4 @@
-const { createRebus, toPhonetic } = require("./rebus.js");
+const { toRebus, toPhonetic } = require("./rebus.js");
 
 function checkEquals(a, b) {
     if (a == b) {
@@ -14,9 +14,6 @@ function checkEquals(a, b) {
     }
 }
 
-checkEquals(createRebus("Mon chat a mangé un poisson"), "Ⓜ️on 🐱 🅰️ Ⓜ️👼é 1️⃣ 🪴🅰️🔊");
-checkEquals(createRebus("L'imprimeur de paris vend son âme au démon"), "l'1️⃣🅿🍚Ⓜ️🥚r 2️⃣ 👣🍚s 🍃d 🔊 âⓂ️e 💧 🎲Ⓜ️on");
-checkEquals(createRebus("Antoine se rabote dans son lit joyeusement"), "📅🫵🪢 se 🐀👢 🦷 🔊 🛏️ 😀🥚seⓂ️📅t");
 
 checkEquals(toPhonetic("Antoine a mangé tout le chocolat noir"), "ɑ̃twan a mɑ̃ʒe tu lə ʃokola nwaʁ");
 checkEquals(toPhonetic("Mon chat a mangé un poisson"), "mɔ̃ ʃa a mɑ̃ʒe ɛ̃ pwasɔ̃");
@@ -46,3 +43,8 @@ checkEquals(
     toPhonetic("La toile témoigne également de la forte rivalité entre peintres dans le milieu romain du début du XVIIe siècle, notamment entre Caravage et Giovanni Baglione, qui, relevant le défi, produit lui aussi un Amour divin pour le cardinal Benedetto Giustiniani, frère du marquis."),
     "la twal temwaɲ eɡaləmɑ̃ də la fɔʁt ʁivalite ɑ̃tʁ pɛ̃tʁ dɑ̃ lə miliø ʁɔmɛ̃ dy deby dy ksvii siɛkl, notamɑ̃ ɑ̃tʁ kaʁavaʒ ɛ ʒiovani baɡliɔn, ki, ʁələvɑ̃ lə defi, pʁodɥi lɥi osi ɛ̃ amuʁ divɛ̃ puʁ lə kaʁdinal bənədəto ʒiystiniani, fʁɛʁ dy maʁki."
 );
+
+
+checkEquals(toRebus("Mon chat a mangé un poisson"), "Ⓜ️on 🐱 🅰️ Ⓜ️👼é 1️⃣ 🪴🅰️🔊");
+checkEquals(toRebus("L'imprimeur de paris vend son âme au démon"), "l'1️⃣🅿🍚Ⓜ️🥚r 2️⃣ 👣🍚s 🍃d 🔊 âⓂ️e 💧 🎲Ⓜ️on");
+checkEquals(toRebus("Antoine se rabote dans son lit joyeusement"), "📅🫵🪢 se 🐀👢 🦷 🔊 🛏️ 😀🥚seⓂ️📅t");

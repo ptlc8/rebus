@@ -2,6 +2,8 @@
 
 Petite fonction JavaScript pour créer des rébus avec des emojis à partir de phrase en français.
 
+⚠️ Disclaimer : Ce n'est pas parfait, mais c'est marrant. Si tu veux l'améliorer, n'hésite pas à faire une [PR](https://github.com/ptlc8/rebus/pulls).
+
 
 ## ✨ Exemples
 
@@ -15,9 +17,9 @@ Petite fonction JavaScript pour créer des rébus avec des emojis à partir de p
 ## 🛠️ Utilisation
 
 ```js
-const { createRebus } = require("rebus-fr");
+const { toRebus } = require("rebus-fr");
 
-var rebus = createRebus("Voici un rébus");
+var rebus = toRebus("Voici un rébus");
 
 console.log(rebus);
 ```
