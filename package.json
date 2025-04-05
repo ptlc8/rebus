@@ -1,10 +1,12 @@
 {
   "name": "rebus-fr",
-  "version": "0.1.1",
+  "version": "1.1.0",
   "description": "Transform french texts to rebus",
   "main": "index.js",
+  "bin": "./cli.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "start": "node cli.js"
   },
   "repository": {
     "type": "git",
