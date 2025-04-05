@@ -25,7 +25,6 @@ g:ɡ
 qu|q'*:k
 (aeéèiïouüyœ)s(aeéèiïouüyœ):$1z$2
 c([eéèiïy]):s$1
-w:v
 
 # nasals
 [iy]en([td]?s?(\\s|$)):jɛ̃$1
@@ -37,10 +36,18 @@ om([bp]):ɔ̃$1
 (ai|ei|i|u|y)m([bp]):ɛ̃$2
 
 # voyelles combos
-ail(le)?(\\s|$):aj$2
-eil(le)?(\\s|$):èj$2
-euil(le)?(\\s|$):œj$2
-ouil(le)?(\\s|$):ouj$2
+aill:aj
+aï([aelu]|\\s|$):aj$1
+ail(\\s|$):aj$1
+eil(\\s|$):ɛj$1
+cueill?:kœj
+(eu|œ)ill?:œj
+ouill?:ouj
+(\\s|^)ill:$1il
+(\\s|^)mill:$1mil
+([wh])ill:$1il
+vill([ae]):vil$1
+ill(\\S):ij$1
 ai|ei:è
 [ae]y:èj
 et(\\s|$):è$1
