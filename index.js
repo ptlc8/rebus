@@ -3,10 +3,9 @@ const phoneticMapping = require("./phonetic.mapping");
 
 
 /**
- * 
- * @param {string} text 
- * @param {[[string, string]]} mapping 
- * @returns 
+ * @param {string} text Text
+ * @param {[[string, string]]} mapping List of change to do
+ * @returns {string} Text after applying mapping
  */
 function applyMapping(text, mapping) {
     for (const [ pattern, replacement ] of mapping) {
