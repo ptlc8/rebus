@@ -4,22 +4,32 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  push:
+    tags:
+      - "v*"
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
+      - name: Vérifier que le tag correspond à la version du package
+        run: |
+          TAG_VERSION=${GITHUB_REF##*/}
+          PACKAGE_VERSION="v"$(node -p "require('./package.json').version")
+          echo "Tag: $TAG_VERSION"
+          echo "Package.json version: $PACKAGE_VERSION"
+          if [ "$TAG_VERSION" != "$PACKAGE_VERSION" ]; then
+            echo "::error::Le tag '$TAG_VERSION' ne correspond pas à la version du package '$PACKAGE_VERSION'"
+            exit 1
+          fi
       - run: npm test
 
   publish-npm:
-    needs: build
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,7 +37,6 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
