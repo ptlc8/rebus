@@ -1,4 +1,4 @@
-const { toRebus, toPhonetic } = require(".");
+import { toRebus, toPhonetic } from "./index.js";
 
 function checkEquals(a, b) {
     if (a == b) {

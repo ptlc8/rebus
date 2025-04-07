@@ -1,5 +1,5 @@
-const emojisMapping = require("./emojis.mapping");
-const phoneticMapping = require("./phonetic.mapping");
+import emojisMapping from "./emojis.mapping.js";
+import phoneticMapping from "./phonetic.mapping.js";
 
 
 /**
@@ -21,7 +21,7 @@ function applyMapping(text, mapping) {
  * @param {string} text Latin french text
  * @returns {string} Phonetic french text
  */
-function toPhonetic(text) {
+export function toPhonetic(text) {
     return applyMapping(text.toLowerCase(), phoneticMapping);
 }
 
@@ -29,7 +29,7 @@ function toPhonetic(text) {
  * @param {string} phonetic Phonetic french text
  * @returns {string} Rebus french text
  */
-function phoneticToRebus(phonetic) {
+export function phoneticToRebus(phonetic) {
     return applyMapping(phonetic, emojisMapping);
 }
 
@@ -37,13 +37,7 @@ function phoneticToRebus(phonetic) {
  * @param {string} text Latin french text
  * @returns {string} Rebus french text
  */
-function toRebus(text) {
+export function toRebus(text) {
     var phonetic = toPhonetic(text);
     return phoneticToRebus(phonetic);
 }
-
-module.exports = {
-    toPhonetic,
-    phoneticToRebus,
-    toRebus,
-};

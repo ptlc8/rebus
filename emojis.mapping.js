@@ -1,4 +1,4 @@
-module.exports = `
+export default `
 dubl ?ve:🇼
 paʁkiŋ:🅿
 i ?ɡʁɛk:🇾

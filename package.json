@@ -1,13 +1,15 @@
 {
   "name": "rebus-fr",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Transform french texts to rebus",
+  "type": "module",
   "main": "index.js",
   "bin": "./cli.js",
   "scripts": {
     "test": "node test.js",
     "start": "node cli.js",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "tag": "git tag 'v'$(node -p 'require(\"./package.json\").version')"
   },
   "repository": {
     "type": "git",

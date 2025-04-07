@@ -1,4 +1,4 @@
-module.exports = `
+export default `
 # exceptions
 (\\S),:$1 ,
 (\\S)\\.:$1 .

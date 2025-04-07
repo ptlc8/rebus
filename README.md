@@ -20,7 +20,7 @@ Petite fonction JavaScript pour créer des **rébus** avec des **emojis** à par
 ## 🛠️ Utilisation
 
 ```js
-const { toRebus } = require("rebus-fr");
+import { toRebus } from "rebus-fr";
 
 var rebus = toRebus("Voici un rébus");
 
@@ -30,7 +30,7 @@ console.log(rebus);
 ### Ou pour de la transcription phonétique
 
 ```js
-const { toPhonetic } = require("rebus-fr");
+import { toPhonetic } from "rebus-fr";
 
 var phonetic = toPhonetic("Voici une transcription phonétique");
 
