@@ -23,7 +23,7 @@ gu([^y\\s]):ɡ$1
 ng(\\s|$):ŋ$1
 g:ɡ
 qu|q'*:k
-(aeéèiïouüyœ)s(aeéèiïouüyœ):$1z$2
+([aeéèiïouüyœ])s([aeéèiïouüyœ]):$1z$2
 c([eéèiïy]):s$1
 
 # nasals
