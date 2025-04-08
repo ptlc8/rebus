@@ -19,7 +19,7 @@ export default `
 j'*:ʒ
 g([eéèiïy]):ʒ$1
 guill:ɡij
-gu([^y\\s]):ɡ$1
+gu([eéèi]):ɡ$1
 ng(\\s|$):ŋ$1
 g:ɡ
 qu|q'*:k
