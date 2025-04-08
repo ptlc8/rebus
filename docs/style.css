@@ -1,0 +1,112 @@
+:root {
+    font-family: Arial, sans-serif;
+    --primary-color: dodgerblue;
+    --secondary-color: white;
+    --gradient: linear-gradient(45deg, purple, transparent);
+}
+
+body {
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: var(--primary-color);
+    background-image: var(--gradient);
+    color: var(--secondary-color);
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+header nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+section:nth-child(2n+1) {
+    background-color: #eee;
+}
+
+
+footer {
+    padding: 1em;
+    text-align: center;
+    background-color: var(--primary-color);
+    background-image: var(--gradient);
+    color: var(--secondary-color);
+}
+
+
+label {
+    color: var(--primary-color);
+    font-size: .8em;
+    margin: .8em 0 .2em 3em;
+}
+
+label input[type="checkbox"] {
+    margin: 0 1em 0 -2em;
+    vertical-align: sub;
+}
+
+input, .rebus, .phonetic {
+    min-height: 1.15em;
+    text-align: center;
+    padding: .5em 1em;
+    border: solid 2px #333;
+    border-radius: .25em;
+}
+
+.phonetic, .rebus {
+    border-style: dashed;
+}
+
+.rebus {
+    font-size: 1.5em;
+    padding: 0;
+}
+
+
+.snippet {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background: #333;
+    color: #fff;
+    margin: .2em 0;
+    padding: .5em;
+    border-radius: .25em;
+}
+
+.snippet code {
+    flex: 1;
+}
+
+.snippet button {
+    background: transparent;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+}
+
+.snippet::selection {
+    color: #000;
+    background: #ccc;
+}

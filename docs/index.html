@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html data-app="{ text: '', showPhonetic: false }">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Rébus-FR.js</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/rebus-fr/dist/rebus.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ptlc8/anchovy@0.3.1/src/anchovy.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+        <meta name="language" content="fr" />
+        <meta name="sitename" content="Rébus-FR.js" />
+    </head>
+    <body>
+        <header>
+           <h1>Rébus</h1>
+           <nav>
+               <a title="Utilisation" href="#use" class="material-symbols-outlined">integration_instructions</a>
+               <a title="Bugs" target="_blank" href="https://github.com/ptlc8/rebus/issues" class="material-symbols-outlined">bug_report</a>
+               <a title="Dépôt Git" target="_blank" href="https://github.com/ptlc8/rebus" class="material-symbols-outlined">graph_2</a>
+           </nav>
+        </header>
+        <section>
+            <p>Crée des rébus avec des emojis à partir de mots français</p>
+            <label>Ta phrase :</label>
+            <input data-model="text" />
+            <label>
+                <input type="checkbox" data-model="showPhonetic" />Intermédiaire phonétique
+                <span data-if="showPhonetic" data-update="showPhonetic">:</span>
+            </label>
+            <div data-if="showPhonetic" class="phonetic" data-bind="Rebus.toPhonetic(text)" data-update="showPhonetic|text"></div>
+            <label>Le rébus :</label>
+            <div class="rebus" data-bind="Rebus.toRebus(text)" data-update="text"></div>
+        </section>
+        <section id="use">
+            <h2>Utilisation de la bibliothèque</h2>
+            <h3>Dans une page web 🌐</h3>
+            <p>Il suffit d'ajouter cette balise HTML :</p>
+            <div class="snippet" data-with-snippet="'<script src=&quot;https://cdn.jsdelivr.net/npm/rebus-fr/dist/rebus.js&quot;></script>'">
+                <code data-bind="snippet"></code>
+                <button class="material-symbols-outlined" data-on-click="navigator.clipboard.writeText(snippet)">content_copy</button>
+            </div>
+            <p>Puis d'utiliser la méthode<code>Rebus.toRebus</code></p>
+            <h3>Ou avec Node.js 🟢</h3>
+            <p>Installer la bibliothèque avec NPM :
+            <div class="snippet" data-with-snippet="'npm install rebus-fr'">
+                <code data-bind="snippet"></code>
+                <button class="material-symbols-outlined" data-on-click="navigator.clipboard.writeText(snippet)">content_copy</button>
+            </div>
+            <p>Puis dans le code il est possible d'utiliser Rebus comme ceci :</p>
+            <div class="snippet" data-with-snippet="'import { toRebus } from \'rebus-fr\';\n\nlet rebus = toRebus(\'Je suis un rébus\');\n\nconsole.log(rebus);'">
+                <code data-bind="snippet"></code>
+                <button class="material-symbols-outlined" data-on-click="navigator.clipboard.writeText(snippet)">content_copy</button>
+            </div>
+        </section>
+        <footer>
+            © <span data-bind="new Date().getFullYear()"></span> Ambi alias PTLC - Tous droits réservés
+        </footer>
+    </body>
+</html>

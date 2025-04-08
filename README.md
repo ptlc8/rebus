@@ -19,6 +19,16 @@ Petite fonction JavaScript pour créer des **rébus** avec des **emojis** à par
 
 ## 🛠️ Utilisation
 
+### 🟢Avec Node.js
+
+Installer le package avec cette commande :
+
+```sh
+npm i rebus-fr
+```
+
+Créer un rébus :
+
 ```js
 import { toRebus } from "rebus-fr";
 
@@ -27,7 +37,25 @@ var rebus = toRebus("Voici un rébus");
 console.log(rebus);
 ```
 
-### Ou pour de la transcription phonétique
+
+### 🌐Dans une page HTML 
+
+Ajouter ce tag dans le code HTML :
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/rebus-fr/dist/rebus.js"></script>
+```
+
+Puis dans le code JavaScript il est possible d'utiliser de faire :
+
+```js
+Rebus.toRebus("Voici un nouveau rébus");
+```
+
+
+### 🔊 Pour de la transcription phonétique
+
+Avec Node.js :
 
 ```js
 import { toPhonetic } from "rebus-fr";
@@ -37,6 +65,12 @@ var phonetic = toPhonetic("Voici une transcription phonétique");
 console.log(phonetic);
 ```
 
+Dans une page web :
+
+```js
+Rebus.toPhonetic("Transcrivons le web phonétiquement");
+```
+
 
 ## 😕 Limites phonétiques
 
@@ -44,8 +78,10 @@ console.log(phonetic);
 
 - Le /ø/ est approximatif parce que je n'arrive pas à le différencier de /ə/.
 
-  Et parfois /ø/ est mis à la place de /œ/ parce que c'est dur à déterminer.
+- Parfois /ø/ est mis à la place de /œ/ parce que c'est dur à déterminer.
 
-- Certains "o" sont retranscrit /ɔ/ au lieu de /o/ parce que c'est dur à déterminer aussi.
+- Certains "o" sont retranscrit /ɔ/ au lieu de /o/ (et inversement) parce que c'est dur à déterminer aussi.
 
-- Les "w" sont presque toujours prononcés /w/.
+- Les "w" sont presque toujours transcrits /w/.
+
+- Les liaisons sont ignorées.
