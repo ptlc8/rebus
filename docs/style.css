@@ -1,8 +1,9 @@
 :root {
-    font-family: Arial, sans-serif;
+    --font: Arial, sans-serif;
     --primary-color: dodgerblue;
     --secondary-color: white;
     --gradient: linear-gradient(45deg, purple, transparent);
+    font-family: var(--font);
 }
 
 body {
@@ -109,4 +110,11 @@ input, .rebus, .phonetic {
 .snippet::selection {
     color: #000;
     background: #ccc;
+}
+
+
+.force-emoji-font {
+  font-family: "Noto Color Emoji", var(--font);
+  font-weight: 400;
+  font-style: normal;
 }
