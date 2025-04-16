@@ -1,2 +1,5 @@
 /.github/
 /docs/
+/Dockerfile
+/compose.yaml
+/Jenkinsfile
