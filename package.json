@@ -1,6 +1,6 @@
 {
   "name": "rebus-fr",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Transform french texts to rebus",
   "type": "module",
   "main": "index.js",
