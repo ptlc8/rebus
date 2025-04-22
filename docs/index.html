@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-app="{ text: '', showPhonetic: false, forceEmojiFont: false }">
+<html data-app="{ text: '', showPhonetic: false, showCyrillic: false, forceEmojiFont: false }">
     <head>
         <meta charset="UTF-8" />
         <title>Rébus-FR.js</title>
@@ -30,6 +30,11 @@
                 <span data-if="showPhonetic" data-update="showPhonetic">:</span>
             </label>
             <div data-if="showPhonetic" class="phonetic" data-bind="Rebus.toPhonetic(text)" data-update="showPhonetic|text"></div>
+            <label>
+                <input type="checkbox" data-model="showCyrillic" />Version cyrillique
+                <span data-if="showCyrillic" data-update="showCyrillic">:</span>
+            </label>
+            <div data-if="showCyrillic" class="phonetic" data-bind="Rebus.toCyrillic(text)" data-update="showCyrillic|text"></div>
             <label>
                 <input type="checkbox" data-model="forceEmojiFont" />Forcer une police compatible avec les emojis
             </label>

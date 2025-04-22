@@ -2,7 +2,7 @@
 
 Petite fonction JavaScript pour créer des **rébus** avec des **emojis** à partir de phrase en **français**.
 
-(Peut aussi faire de la transcription **phonétique**.)
+(Peut aussi faire de la transcription **phonétique** et de la translittération **cyrillique**)
 
 > ⚠️ Disclaimer : Ce n'est pas parfait, mais c'est fonctionnel.
 > Si tu veux l'améliorer, n'hésite pas à faire une [PR](https://github.com/ptlc8/rebus/pulls).
@@ -70,6 +70,13 @@ Dans une page web :
 ```js
 Rebus.toPhonetic("Transcrivons le web phonétiquement");
 ```
+
+
+### 🧰 Autres fonctions
+
+- `phoneticToRebus` : Transformation de la notation phonétique en rébus français
+- `phoneticToCyrillic` : Tranlittération de la notation phonétique en lettres cyrilliques
+- `toCyrillic` : Transcription du français en lettres cyrilliques
 
 
 ## 😕 Limites phonétiques

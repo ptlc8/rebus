@@ -1,5 +1,6 @@
 import emojisMapping from "./emojis.mapping.js";
 import phoneticMapping from "./phonetic.mapping.js";
+import cyrillicMapping from "./cyrillic.mapping.js";
 
 
 /**
@@ -40,4 +41,21 @@ export function phoneticToRebus(phonetic) {
 export function toRebus(text) {
     var phonetic = toPhonetic(text);
     return phoneticToRebus(phonetic);
+}
+
+/**
+ * @param {string} phonetic Phonetic french text
+ * @returns {string} Cyrillic french text
+ */
+export function phoneticToCyrillic(phonetic) {
+    return applyMapping(phonetic, cyrillicMapping);
+}
+
+/**
+ * @param {string} text Latin french text
+ * @returns {string} Cyrillic french text
+ */
+export function toCyrillic(text) {
+    var phonetic = toPhonetic(text);
+    return phoneticToCyrillic(phonetic);
 }
