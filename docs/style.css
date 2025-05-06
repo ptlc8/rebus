@@ -94,6 +94,7 @@ input, .rebus, .phonetic {
     margin: .2em 0;
     padding: .5em;
     border-radius: .25em;
+    line-break: anywhere;
 }
 
 .snippet code {
