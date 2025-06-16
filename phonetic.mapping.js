@@ -82,6 +82,11 @@ q:u
 [cs]h:ʃ
 ɡn:ɲ
 ff+|ph:f
+(\\s|^)əx([aœəeøoɔyuɑɔɛi]):$1egz$2
+əx(\\s|$):ɛksə$1
+(\\s|^)əx:eks$2
+əx:ɛks
+əz(\\s|$):e$1
 
 # autre consonnes
 z(\\s|$):$1

@@ -37,7 +37,7 @@ checkEquals(
 );
 checkEquals(
     toPhonetic("En hommage au commanditaire, plusieurs éléments présents dans le tableau mettent en lumière son identité et ses vertus, à travers une symbolique complexe dont les clés font encore débat."),
-    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plyziøʁ elemɑ̃ pʁezɑ̃ dɑ̃ lə tablo mətɑ̃ ɑ̃ lymiɛʁ sɔ̃ idɑ̃tite ɛ se vəʁty, a tʁavɛʁ yn sɛ̃bolik kɔ̃pləks dɔ̃ le kle fɔ̃ ɑ̃kɔʁ deba."
+    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plyziøʁ elemɑ̃ pʁezɑ̃ dɑ̃ lə tablo mətɑ̃ ɑ̃ lymiɛʁ sɔ̃ idɑ̃tite ɛ se vəʁty, a tʁavɛʁ yn sɛ̃bolik kɔ̃plɛks dɔ̃ le kle fɔ̃ ɑ̃kɔʁ deba."
 );
 checkEquals(
     toPhonetic("La toile témoigne également de la forte rivalité entre peintres dans le milieu romain du début du XVIIe siècle, notamment entre Caravage et Giovanni Baglione, qui, relevant le défi, produit lui aussi un Amour divin pour le cardinal Benedetto Giustiniani, frère du marquis."),
