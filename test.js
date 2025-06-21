@@ -52,5 +52,5 @@ checkEquals(toRebus("Antoine se rabote dans son lit joyeusement"), "📅🫵🪢
 
 checkEquals(
     toRebus("L'Amour victorieux ou Amour vainqueur est une toile peinte vers 1601 ou 1602 par l'artiste lombard Michelangelo Merisi, dit « Caravage », alors qu'il vit et travaille à Rome."),
-    "🗡️our vikt🥇i🥚 ou 🅰️mour 🍷❤️ è 1️⃣ 🕸️ 🍺 🪱 1601 ou 1602 🍰 🥓tist lonb🎨 mich 🇪 l👼 🇪 l💧 m 🇪 🍚zi, di « 🚌🅰️v🅰️🎮 », 🅰️l🥇 k🏝️ vi è t🐀v🧄 🅰️ 🥃."
+    "🗡️our 🧬kt🥇i🥚 ou 🅰️mour 🍷❤️ è 1️⃣ 🕸️ 🍺 🪱 1601 ou 1602 🍰 🥓tist lonb🎨 mich 🇪 l👼 🇪 l💧 m 🇪 🍚zi, di « 🚌🅰️v🅰️🎮 », 🅰️l🥇 k🏝️ 🧬 è t🐀v🧄 🅰️ 🥃."
 );
