@@ -35,7 +35,7 @@ om([bp]):ɔ̃$1
 (ai|ei|i|u|y)n([^naeéèiïouüyœɑɔɛ]|$):ɛ̃$2
 (ai|ei|i|u|y)m([bp]):ɛ̃$2
 
-# voyelles combos
+# vowel combos
 aill:aj
 aï([aelu]|\\s|$):aj$1
 ail(\\s|$):aj$1
@@ -63,11 +63,13 @@ o([rnm]):ɔ$1
 ô:o
 e?au:o
 (\\s|^)y:$1j
-uy([aeéèiïouüyœɑɔv]):ɥij$1
+ri([aeèouüyœøɑɔɛ]):rij$1
+i([aeèouüyœøɑɔɛ]):j$1
+uy([aeéèiïouüyœɑɔ]):ɥij$1
 y:i
 ui:ɥi
 
-# voyelles combotables non combotées
+# non-combined vowels
 è:ɛ
 e:ə
 é:e
@@ -78,7 +80,7 @@ q:u
 
 
 
-# consonnes combos
+# consonant combos
 [cs]h:ʃ
 ɡn:ɲ
 ff+|ph:f
@@ -88,7 +90,7 @@ ff+|ph:f
 əx:ɛks
 əz(\\s|$):e$1
 
-# autre consonnes
+# other consonants
 bb+:b
 dd+|d'+:d
 ll+|l'+:l
@@ -100,24 +102,25 @@ x|cc+:ks
 ss+|ç|c'+|s'+:s
 c:k
 kk+|k'+:k
-([^st\\s])t(i[aœəeøoɔyuɑɔ]|iɛ̃):$1s$2
+([^st\\s])t(j[aœəeøoɔyuɑɔ]|jɛ̃):$1s$2
 tt+|t'+:t
 vv+:v
 r+:ʁ
 
-# remove letter without sounds
+# remove letters without sound
 h:
 (\\S)z(\\s|$):$1$2
 əʁs(\\s|$):ɛʁ$1
 ((\\s|^)\\S)əs(\\s|$):$1e$3
 (\\S)s(\\s|$):$1$2
-iəd(\\s|$):ie$1
+jəd(\\s|$):je$1
 əd(\\s|$):edə$1
 (\\S)d(\\s|$):$1$2
 əʁ(\\s|$):e$1
 (\\S)ɡ?t(\\s|$):$1$2
 ym(\\s|$):ɔm$1
 (\\S\\S)ə(\\s|$):$1$2
+sj(\\s|$):si$1
 
  ,:,
  \\.:.
