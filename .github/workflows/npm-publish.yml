@@ -27,6 +27,7 @@ jobs:
         with:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
+      - run: cp README.md src/
       - working-directory: ./src
         run: npm version from-git --no-git-tag-version
       - working-directory: ./src
