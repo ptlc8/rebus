@@ -4,7 +4,9 @@
   "description": "Transform french texts to rebus",
   "type": "module",
   "main": "index.js",
-  "bin": "./cli.js",
+  "bin": {
+    "rebus-fr": "cli.js"
+  },
   "scripts": {
     "test": "node test.js",
     "start": "node cli.js",
