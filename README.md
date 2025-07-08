@@ -12,7 +12,7 @@ Petite fonction JavaScript pour créer des **rébus** avec des **emojis** à par
 
 `Mon chat a mangé un poisson` devient `🗻 🐱 🅰️ m👼é 1️⃣ 🫛🔊`
 
-`L'arnaqueur de paris vend son âme au démon` devient `🥓n🅰️❤️ 2️⃣ 🍰i 🌬️ 🔊 🅰️m 💧 🎲🗻`
+`L'arnaqueur de paris vend son âme au démon` devient `🥓n🅰️❤️ 2️⃣ 🍰ℹ️ 🌬️ 🔊 🅰️m 💧 🎲🗻`
 
 `Antoine se rabote dans son lit joyeusement` devient `📅🫵🪢 s🇪 🐀👢 🦷 🔊 🛏️ 😀👀z🇪🤥`
 

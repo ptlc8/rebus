@@ -19,7 +19,7 @@ WORKDIR /app
 # Copy static files and use local built assets
 COPY docs/ ./
 COPY --from=builder /app/dist/ ./
-RUN find . -type f -name "*.html" -exec sed -i 's|https://cdn.jsdelivr.net/npm/rebus-fr/dist/||g' {} +
+RUN find . -type f -name "*.html" -exec sed -i 's|"https://cdn.jsdelivr.net/npm/rebus-fr/dist/|"|g' {} +
 
 USER static
 
