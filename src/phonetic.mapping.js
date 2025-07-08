@@ -12,6 +12,7 @@ export default `
 ê:è
 ë:è
 î:i
+ô:o
 û:u
 ù:u
 
