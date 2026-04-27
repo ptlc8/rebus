@@ -13,7 +13,9 @@ taksi:🚕
 v[ji]olɛ([^̃]|$):🟣$1
 
 # 4-sound emoji
+aʁbʁ:🌳
 atɔm:⚛️
+avjɔ̃:✈️
 ɑ̃pul:💡
 ɑ̃tɛn:📡
 bebe:👶
@@ -22,6 +24,7 @@ bij[ɛe]:💶
 bizu:💏
 bluz:🥼
 boks:🥊
+bʁɑ̃ʃ:🌿
 bʁik:🧱
 bʁos:🪥
 buʒi:🕯️
@@ -44,6 +47,7 @@ flœʁ:💐
 flyt:🪈
 fɔʁs:💪
 fʁɑ̃s:🇫🇷
+fʁɛz:🍓
 fʁit:🍟
 fʁwa:🥶
 fyze:🚀
@@ -58,6 +62,7 @@ fyze:🚀
 ʒɥi[fv]:✡
 kaba:🕋
 kadi:🛒
+kafe:☕
 kaka:💩
 kalɛ̃:🤗
 kaʁe:🔲
@@ -77,15 +82,18 @@ kʁot:💩
 kʁwa:❌
 kuto:🔪
 lama:🦙
+lapɛ̃:🐰
 lɛtʁ:📨
 lɛvʁ:🫦
 livʁ:📚
 mais:🌽
+maʁʃ:🚶
 maʁɔ̃:🟤
 mask:🎭
 mɛʁd:💩
 mɛtʁ:📏
 mɛjl:📧
+mɛzɔ̃:🏠
 m[ji]ɛl:🍯
 moaj:🗿
 mot[oɔ]:🏍️
@@ -98,8 +106,10 @@ nwaʁ:⚫
 ɔmaʁ:🦞
 ɔʁaʒ:🌩️
 ɔʁɑ̃ʒ:🟠
+ɔʁdi:💻
 p[ji]oʃ:⛏️
 piza:🍕
+plɑ̃t:🌱
 plys:➕
 plym:🪶
 plɥi:🌧️
@@ -136,6 +146,7 @@ tʁɑ̃s:⚧️
 tʁol:🧌
 tʁwa:3️⃣
 twal:🕸️
+velo:🚴
 v[ji]ɑ̃d:🥩
 wazo:🐦
 joɡa:🧘
@@ -194,6 +205,7 @@ fam:👩
 fɛt:🎉
 fœk:🖕
 fœj:🌿
+fij:👧
 fil:🧵
 flɑ̃:🍮
 fok:🦭
@@ -224,6 +236,7 @@ kl(ɛ̃|iɲ):😉
 koʃ:✅
 kok:🐔
 kɔʁ:📯
+kʁi:😱
 kul:🆒
 kuʁ:🏃
 laʁ:🥓
@@ -266,6 +279,7 @@ pɑ̃s:💭
 pɛʃ:🍑
 pɛl:🪏
 pɛ̃t:🍺
+p[øœ]ʁ:😨
 p[ji]e:🦶
 pik:♠️
 pil:🔋
@@ -307,6 +321,8 @@ ski:🎿
 sol:🎼
 sɔn:🛎️
 suʁ:🙉
+s[øœ]ʁ:👭
+swaʁ:🌆
 taʃ:🫟
 tas:☕️
 tɑ̃t:⛺
@@ -385,10 +401,11 @@ n[øə]:🪢
 ne:👃
 ni:🪹
 nɔ̃:🙅
+ob:🌅
+[oɔ]s:🦴
 ɔf:📴
 ɔm:👨
 ɔʁ:🥇
-os:🦴
 pa:👣
 pɑ̃:🦚
 pe: 🇵 
