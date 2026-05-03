@@ -45,17 +45,17 @@ checkEquals(
 );
 
 
-checkEquals(toRebus("Antoine a mangé tout le chocolat noir"), "📅🫵🪢 🅰️ m👼é tou l 🇪  🥵k💧l🅰️ ⚫");
+checkEquals(toRebus("Antoine a mangé tout le chocolat noir"), "📅🫵🪢 🅰️ m👼é tou l🇪‌ 🥵k💧l🅰️ ⚫");
 checkEquals(toRebus("Mon chat a mangé un poisson"), "🗻 🐱 🅰️ m👼é 1️⃣ 🫛🔊");
 checkEquals(toRebus("L'arnaqueur de paris vend son âme au démon"), "🥓n🅰️❤️ 2️⃣ 🍰ℹ️ 🌬️ 🔊 🅰️m 💧 🎲🗻");
-checkEquals(toRebus("Antoine se rabote dans son lit joyeusement"), "📅🫵🪢 s 🇪  🐀👢 🦷 🔊 🛏️ 😀👀z 🇪 🤥");
+checkEquals(toRebus("Antoine se rabote dans son lit joyeusement"), "📅🫵🪢 s🇪‌ 🐀👢 🦷 🔊 🛏️ 😀👀z🇪‌🤥");
 
 checkEquals(
     toRebus("L'Amour victorieux ou Amour vainqueur est une toile peinte vers 1601 ou 1602 par l'artiste lombard Michelangelo Merisi, dit « Caravage », alors qu'il vit et travaille à Rome."),
-    "🗡️our 🧬kt🥇ℹ️👀 ou 🅰️mour 🍷❤️ è 1️⃣ 🕸️ 🍺 🪱 1601 ou 1602 🍰 🥓tℹ️st lonb🎨 mℹ️ch 🇪 l👼 🇪 l💧 m 🇪 🍚zℹ️, dℹ️ « 🚌🅰️v🅰️🎮 », 🅰️l🥇 k🏝️ 🧬 è t🐀v🧄 🅰️ 🥃."
+    "🗡️our 🧬kt🥇ℹ️👀 ou 🅰️mour 🍷❤️ è 1️⃣ 🕸️ 🍺 🪱 1601 ou 1602 🍰 🥓tℹ️st lonb🎨 mℹ️ch🇪‌l👼🇪‌l💧 m🇪‌🍚zℹ️, dℹ️ « 🚌🅰️v🅰️🎮 », 🅰️l🥇 k🏝️ 🧬 è t🐀v🧄 🅰️ 🥃."
 );
 
 checkEquals(
     toRebus("Il s'agit d'une représentation mythologique de l'Amour, personnalisé par un Cupidon ailé qui prend les traits d'un adolescent souriant et entièrement nu."),
-    "🏝️ s🅰️ 🇯  d1️⃣ r 🇪 préz📅☕️yon mℹ️t💧l💧 🇯 k 2️⃣ 🗡️our, p 🇪 r🛎️🅰️🛏️zé 🍰 1️⃣  🇶 pℹ️don 🪽é kℹ️ pr📅 lé ─ d1️⃣ 🅰️d💧l 🇪 🩸 🐭y📅 è 📅ty💨 🇪 🤥 n 🇺 ."
+    "🏝️ s🅰️🇯‌ d1️⃣ r🇪‌préz📅☕️yon mℹ️t💧l💧🇯‌k 2️⃣ 🗡️our, p🇪‌r🛎️🅰️🛏️zé 🍰 1️⃣ 🇶‌pℹ️don 🪽é kℹ️ pr📅 lé ─ d1️⃣ 🅰️d💧l🇪‌🩸 🐭y📅 è 📅ty💨🇪‌🤥 n🇺‌."
 );
