@@ -53,6 +53,8 @@ ai|ei:è
 [ae]y:èj
 et(\\s|$):è$1
 ez(\\s|$):é$1
+etto:éto
+ett:èt
 oi:wa
 oy:waj
 eu:ø

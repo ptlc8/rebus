@@ -33,15 +33,15 @@ checkEquals(
 );
 checkEquals(
     toPhonetic("Composée au moment où Caravage commence déjà à connaître une grande renommée dans le milieu artistique romain, la toile est une commande du marquis Vincenzo Giustiniani, pour qui cette œuvre représente la pièce maîtresse de sa splendide collection."),
-    "kɔ̃poze o mɔmɑ̃ u kaʁavaʒ kɔmɑ̃s deʒa a kɔnɛtʁ yn ɡʁɑ̃d ʁənɔme dɑ̃ lə miljø aʁtistik ʁɔmɛ̃, la twal ɛ yn kɔmɑ̃d dy maʁki vɛ̃sɑ̃zo ʒjystinjani, puʁ ki sət œvʁ ʁəpʁezɑ̃t la pjɛs mɛtʁəs də sa splɑ̃did koləksjɔ̃."
+    "kɔ̃poze o mɔmɑ̃ u kaʁavaʒ kɔmɑ̃s deʒa a kɔnɛtʁ yn ɡʁɑ̃d ʁənɔme dɑ̃ lə miljø aʁtistik ʁɔmɛ̃, la twal ɛ yn kɔmɑ̃d dy maʁki vɛ̃sɑ̃zo ʒjystinjani, puʁ ki sɛt œvʁ ʁəpʁezɑ̃t la pjɛs mɛtʁəs də sa splɑ̃did koləksjɔ̃."
 );
 checkEquals(
     toPhonetic("En hommage au commanditaire, plusieurs éléments présents dans le tableau mettent en lumière son identité et ses vertus, à travers une symbolique complexe dont les clés font encore débat."),
-    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plyzjøʁ elemɑ̃ pʁezɑ̃ dɑ̃ lə tablo mətɑ̃ ɑ̃ lymjɛʁ sɔ̃ idɑ̃tite ɛ se vəʁty, a tʁavɛʁ yn sɛ̃bolik kɔ̃plɛks dɔ̃ le kle fɔ̃ ɑ̃kɔʁ deba."
+    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plyzjøʁ elemɑ̃ pʁezɑ̃ dɑ̃ lə tablo mɛtɑ̃ ɑ̃ lymjɛʁ sɔ̃ idɑ̃tite ɛ se vəʁty, a tʁavɛʁ yn sɛ̃bolik kɔ̃plɛks dɔ̃ le kle fɔ̃ ɑ̃kɔʁ deba."
 );
 checkEquals(
     toPhonetic("La toile témoigne également de la forte rivalité entre peintres dans le milieu romain du début du XVIIe siècle, notamment entre Caravage et Giovanni Baglione, qui, relevant le défi, produit lui aussi un Amour divin pour le cardinal Benedetto Giustiniani, frère du marquis."),
-    "la twal temwaɲ eɡaləmɑ̃ də la fɔʁt ʁivalite ɑ̃tʁ pɛ̃tʁ dɑ̃ lə miljø ʁɔmɛ̃ dy deby dy ksvij sjɛkl, notamɑ̃ ɑ̃tʁ kaʁavaʒ ɛ ʒjovani baɡljɔn, ki, ʁələvɑ̃ lə defi, pʁodɥi lɥi osi ɛ̃ amuʁ divɛ̃ puʁ lə kaʁdinal bənədəto ʒjystinjani, fʁɛʁ dy maʁki."
+    "la twal temwaɲ eɡaləmɑ̃ də la fɔʁt ʁivalite ɑ̃tʁ pɛ̃tʁ dɑ̃ lə miljø ʁɔmɛ̃ dy deby dy ksvij sjɛkl, notamɑ̃ ɑ̃tʁ kaʁavaʒ ɛ ʒjovani baɡljɔn, ki, ʁələvɑ̃ lə defi, pʁodɥi lɥi osi ɛ̃ amuʁ divɛ̃ puʁ lə kaʁdinal bənədeto ʒjystinjani, fʁɛʁ dy maʁki."
 );
 
 
