@@ -2,7 +2,7 @@ export default `
 # exceptions
 (\\S),:$1 ,
 (\\S)\\.:$1 .
-(^|\\s|')est?(\\s|$):$1è$2
+(^|\\s|')est?(\\s|-|$):$1è$2
 (^|\\s)et(\\s|$):$1é$2
 (^|\\s)wagon(s?(\\s|$)):$1vagon$2
 ((\\W|^)[ds]i)x(\\s|$):$1sse$3
@@ -33,6 +33,7 @@ c([eéèiïy]):s$1
 
 # nasals
 [iy]en([td]?s?(\\s|$)):jɛ̃$1
+éen([^naeéèiïouüyœɑ]|$):éɛ̃$1
 (a|e)n([^naeéèiïouüyœɑ]|$):ɑ̃$2
 (a|e)m([bp]):ɑ̃$2
 on([^naeéèiïouüyœɑɔ]|$):ɔ̃$1
@@ -60,20 +61,28 @@ ez(\\s|$):é$1
 etto:éto
 ett:èt
 ecc:ék
-(\\s|^)enn([aéèiïouüyɑɔɛ]):$1ɑ̃n$2
+(\\s|^)enn([aéèiïouüyœɑɔɛ]):$1ɑ̃n$2
 enn(e?(s|nt)?(\\s|$)):èn$1
 enn:én
 err(e?(s|nt)?(\\s|$)):èr$1
 derr:dèr
 err:ér
-ess(e?(s|nt)?(\\s|$)):ès$1
+er([^aeéèiïouüyœɑɔɛ]):èr$1
+ess(e?s?(\\s|$)):ès$1
 ess:és
-ell(e?(s|nt)?(\\s|$)):èl$1
+(\\s|^)es:$1és
+es([ktb]):ès$1
+es(\\w):és$1
+ell(e?s?(\\s|$)):èl$1
 ell:él
-eff(e?(s|nt)?(\\s|$)):èf$1
+el(s?(\\s|$)):èl$1
+eff(e?s?(\\s|$)):èf$1
 eff:éf
-epp(e?(s|nt)?(\\s|$)):èp$1
+ef(s?(\\s|$)):èf$1
+epp(e?s?(\\s|$)):èp$1
 epp:ép
+ep(t?)(\\s|$):èp$1e$2
+ept:èpt
 oi:wa
 oy:waj
 eu:ø

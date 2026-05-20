@@ -25,11 +25,11 @@ checkEquals(
 );
 checkEquals(
     toPhonetic("Il s'agit d'une représentation mythologique de l'Amour, personnalisé par un Cupidon ailé qui prend les traits d'un adolescent souriant et entièrement nu."),
-    "il saʒi dyn ʁəpʁezɑ̃tasjɔ̃ mitoloʒik də lamuʁ, pəʁsɔnalize paʁ ɛ̃ kypidɔ̃ ɛle ki pʁɑ̃ le tʁɛ dɛ̃ adolesɑ̃ suʁijɑ̃ e ɑ̃tjɛʁəmɑ̃ ny."
+    "il saʒi dyn ʁəpʁezɑ̃tasjɔ̃ mitoloʒik də lamuʁ, pɛʁsɔnalize paʁ ɛ̃ kypidɔ̃ ɛle ki pʁɑ̃ le tʁɛ dɛ̃ adolesɑ̃ suʁijɑ̃ e ɑ̃tjɛʁəmɑ̃ ny."
 );
 checkEquals(
     toPhonetic("Le dieu tient des flèches à la main et il foule aux pieds différents symboles artistiques et scientifiques (instruments de musique abîmés, instruments de mesure, livres, cuirasse d'armure, etc.) signifiant ainsi la suprématie de l'Amour sur toutes choses — d'où le titre actuel, tiré du vers ovidien Omnia vincit amor, c'est-à-dire : « l'Amour triomphe de tout »."),
-    "lə djø tjɛ̃ de flɛʃ a la mɛ̃ e il ful o pje difeʁɑ̃ sɛ̃bol aʁtistik e sjɑ̃tifik (ɛ̃stʁymɑ̃ də myzik abime, ɛ̃stʁymɑ̃ də məzyʁ, livʁ, kɥiʁas daʁmyʁ, ətk.) siɲifjɑ̃ ɛ̃si la sypʁemasi də lamuʁ syʁ tut ʃoz — du lə titʁ aktyəl, tiʁe dy vɛʁ ovidjɛ̃ ɔmnja vɛ̃si amɔʁ, səst-a-diʁ : « lamuʁ tʁijɔ̃f də tu »."
+    "lə djø tjɛ̃ de flɛʃ a la mɛ̃ e il ful o pje difeʁɑ̃ sɛ̃bol aʁtistik e sjɑ̃tifik (ɛ̃stʁymɑ̃ də myzik abime, ɛ̃stʁymɑ̃ də məzyʁ, livʁ, kɥiʁas daʁmyʁ, ətk.) siɲifjɑ̃ ɛ̃si la sypʁemasi də lamuʁ syʁ tut ʃoz — du lə titʁ aktyɛl, tiʁe dy vɛʁ ovidjɛ̃ ɔmnja vɛ̃si amɔʁ, sɛ-a-diʁ : « lamuʁ tʁijɔ̃f də tu »."
 );
 checkEquals(
     toPhonetic("Composée au moment où Caravage commence déjà à connaître une grande renommée dans le milieu artistique romain, la toile est une commande du marquis Vincenzo Giustiniani, pour qui cette œuvre représente la pièce maîtresse de sa splendide collection."),
@@ -37,7 +37,7 @@ checkEquals(
 );
 checkEquals(
     toPhonetic("En hommage au commanditaire, plusieurs éléments présents dans le tableau mettent en lumière son identité et ses vertus, à travers une symbolique complexe dont les clés font encore débat."),
-    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plyzjøʁ elemɑ̃ pʁezɑ̃ dɑ̃ lə tablo mɛtɑ̃ ɑ̃ lymjɛʁ sɔ̃ idɑ̃tite e se vəʁty, a tʁavɛʁ yn sɛ̃bolik kɔ̃plɛks dɔ̃ le kle fɔ̃ ɑ̃kɔʁ deba."
+    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plyzjøʁ elemɑ̃ pʁezɑ̃ dɑ̃ lə tablo mɛtɑ̃ ɑ̃ lymjɛʁ sɔ̃ idɑ̃tite e se vɛʁty, a tʁavɛʁ yn sɛ̃bolik kɔ̃plɛks dɔ̃ le kle fɔ̃ ɑ̃kɔʁ deba."
 );
 checkEquals(
     toPhonetic("La toile témoigne également de la forte rivalité entre peintres dans le milieu romain du début du XVIIe siècle, notamment entre Caravage et Giovanni Baglione, qui, relevant le défi, produit lui aussi un Amour divin pour le cardinal Benedetto Giustiniani, frère du marquis."),
@@ -45,12 +45,12 @@ checkEquals(
 );
 
 checkEquals(
-    toPhonetic("Un écureuil accéda à l'accueil des steppes, ennuyé par le [] avec sa pelle efficacité dix."),
-    "ɛ̃ ekyʁœj akseda a lakœj de stɛp, ɑ̃nɥije paʁ lə [] avɛk sa pɛl efikasite dis." 
+    toPhonetic("Un écureuil accéda à l'accueil des steppes, ennuyé par le reptile avec sa pelle efficacité dix."),
+    "ɛ̃ ekyʁœj akseda a lakœj de stɛp, ɑ̃nɥije paʁ lə ʁɛptil avɛk sa pɛl efikasite dis." 
 );
 checkEquals(
     toPhonetic("Le camion-benne de Bèn traverse la terre derrière la serre pendant qu'un renne paresseux renverse une brouette pleine de fourchettes près de la messe, et que la mienne éclabousse sa fesse contre une pierre enterrée sous des passerelles anciennes."),
-    "lə kamjɔ̃-bɛn də bɛn tʁavəʁs la tɛʁ dɛʁijɛʁ la sɛʁ pɑ̃dɑ̃ kɛ̃ ʁɛn paʁesø ʁɑ̃vəʁs yn bʁwɛt plɛn də fuʁʃɛt pʁɛ də la mɛs, e kə la mjɛn eklabus sa fɛs kɔ̃tʁ yn pjɛʁ ɑ̃teʁe su de pasəʁɛl ɑ̃sjɛn."
+    "lə kamjɔ̃-bɛn də bɛn tʁavɛʁs la tɛʁ dɛʁijɛʁ la sɛʁ pɑ̃dɑ̃ kɛ̃ ʁɛn paʁesø ʁɑ̃vɛʁs yn bʁwɛt plɛn də fuʁʃɛt pʁɛ də la mɛs, e kə la mjɛn eklabus sa fɛs kɔ̃tʁ yn pjɛʁ ɑ̃teʁe su de pasəʁɛl ɑ̃sjɛn."
 );
 
 
@@ -66,5 +66,5 @@ checkEquals(
 
 checkEquals(
     toRebus("Il s'agit d'une représentation mythologique de l'Amour, personnalisé par un Cupidon ailé qui prend les traits d'un adolescent souriant et entièrement nu."),
-    "🏝️ s🅰️🇯‌ d1️⃣ r🇪‌préz📅☕️yon mℹ️t💧l💧🇯‌k 2️⃣ 🗡️our, p🇪‌r🛎️🅰️🛏️zé 🍰 1️⃣ 🇶‌pℹ️don 🪽é kℹ️ pr📅 lé ─ d1️⃣ 🅰️d💧lé🩸 🐭y📅 é 📅ty💨🇪‌🤥 n🇺‌."
+    "🏝️ s🅰️🇯‌ d1️⃣ r🇪‌préz📅☕️yon mℹ️t💧l💧🇯‌k 2️⃣ 🗡️our, p💨🛎️🅰️🛏️zé 🍰 1️⃣ 🇶‌pℹ️don 🪽é kℹ️ pr📅 lé ─ d1️⃣ 🅰️d💧lé🩸 🐭y📅 é 📅ty💨🇪‌🤥 n🇺‌."
 );
