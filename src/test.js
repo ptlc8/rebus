@@ -52,6 +52,14 @@ checkEquals(
     toPhonetic("Le camion-benne de Bèn traverse la terre derrière la serre pendant qu'un renne paresseux renverse une brouette pleine de fourchettes près de la messe, et que la mienne éclabousse sa fesse contre une pierre enterrée sous des passerelles anciennes."),
     "lə kamjɔ̃-bɛn də bɛn tʁavɛʁs la tɛʁ dɛʁijɛʁ la sɛʁ pɑ̃dɑ̃ kɛ̃ ʁɛn paʁesø ʁɑ̃vɛʁs yn bʁwɛt plɛn də fuʁʃɛt pʁɛ də la mɛs, e kə la mjɛn eklabus sa fɛs kɔ̃tʁ yn pjɛʁ ɑ̃teʁe su de pasəʁɛl ɑ̃sjɛn."
 );
+checkEquals(
+    toPhonetic(`Des esquisses de femmes festives emmenées patiemment et passionnément,
+      par des philosophes fantasques psalmodiant des psaumes phosphorescents,
+      frémissaient fébrilement sous les fresques fuligineuses d'amphithéâtres byzantins.`),
+    `de eskis də fam fɛstiv ɑ̃məne pasjamɑ̃ e pasjɔnemɑ̃,
+      paʁ de filozof fɑ̃task psalmodjɑ̃ de psom fosfɔʁesɑ̃,
+      fʁemisajɛ̃ febʁiləmɑ̃ su le fʁɛsk fyliʒinøz dɑ̃fiteatʁ bizɑ̃tɛ̃.`
+);
 
 
 checkEquals(toRebus("Antoine a mangé tout le chocolat noir"), "📅🫵🪢 🅰️ m👼é tou l🇪‌ 🥵k💧l🅰️ ⚫");

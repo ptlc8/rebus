@@ -6,6 +6,7 @@ export default `
 (^|\\s)et(\\s|$):$1é$2
 (^|\\s)wagon(s?(\\s|$)):$1vagon$2
 ((\\W|^)[ds]i)x(\\s|$):$1sse$3
+femm:famm
 
 # remove phonetically useless accents
 â:a
@@ -83,6 +84,9 @@ epp(e?s?(\\s|$)):èp$1
 epp:ép
 ep(t?)(\\s|$):èp$1e$2
 ept:èpt
+emmɑ̃t(\\s|$):amɑ̃t$1
+(\\s|^)emm([aeéèiïouüyœɑɔɛ]):$1ɑ̃m$2
+emm:ém
 oi:wa
 oy:waj
 eu:ø
