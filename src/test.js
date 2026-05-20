@@ -45,6 +45,11 @@ checkEquals(
 );
 
 
+checkEquals(
+    toPhonetic("Un écureuil accéda à l'accueil"),
+    "ɛ̃ ekyʁœj akseda a lakœj"
+);
+
 checkEquals(toRebus("Antoine a mangé tout le chocolat noir"), "📅🫵🪢 🅰️ m👼é tou l🇪‌ 🥵k💧l🅰️ ⚫");
 checkEquals(toRebus("Mon chat a mangé un poisson"), "🗻 🐱 🅰️ m👼é 1️⃣ 🫛🔊");
 checkEquals(toRebus("L'arnaqueur de paris vend son âme au démon"), "🥓n🅰️❤️ 2️⃣ 🍰ℹ️ 🌬️ 🔊 🅰️m 💧 🎲🗻");

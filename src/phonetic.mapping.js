@@ -21,10 +21,12 @@ j'*:ʒ
 g([eéèiïy]):ʒ$1
 guill:ɡij
 gu([eéèi]):ɡ$1
+ɡeill?:ɡœj
 ng(\\s|$):ŋ$1
 g:ɡ
 qu|q'*:k
 ([aeéèiïouüyœ])s([aeéèiïouüyœ]):$1z$2
+cc([eéèiïy]):ks$1
 c([eéèiïy]):s$1
 
 # nasals
@@ -40,8 +42,8 @@ om([bp]):ɔ̃$1
 aill:aj
 aï([aelu]|\\s|$):aj$1
 ail(\\s|$):aj$1
+ueill?:œj
 eil(\\s|$):ɛj$1
-cueill?:kœj
 (eu|œ)ill?:œj
 ouill?:ouj
 (\\s|^)ill:$1il
@@ -55,6 +57,7 @@ et(\\s|$):è$1
 ez(\\s|$):é$1
 etto:éto
 ett:èt
+ecc:ék
 oi:wa
 oy:waj
 eu:ø
@@ -101,7 +104,8 @@ mm+|m'+:m
 nn+|n'+:n
 pp+:p
 (\\S)x(\\s|$):$1$2
-x|cc+:ks
+x:ks
+cc+:k
 ss+|ç|c'+|s'+:s
 c:k
 kk+|k'+:k
