@@ -3,7 +3,9 @@ export default `
 (\\S),:$1 ,
 (\\S)\\.:$1 .
 (^|\\s|')est?(\\s|$):$1è$2
+(^|\\s)et(\\s|$):$1é$2
 (^|\\s)wagon(s?(\\s|$)):$1vagon$2
+((\\W|^)[ds]i)x(\\s|$):$1sse$3
 
 # remove phonetically useless accents
 â:a
@@ -58,6 +60,20 @@ ez(\\s|$):é$1
 etto:éto
 ett:èt
 ecc:ék
+(\\s|^)enn([aéèiïouüyɑɔɛ]):$1ɑ̃n$2
+enn(e?(s|nt)?(\\s|$)):èn$1
+enn:én
+err(e?(s|nt)?(\\s|$)):èr$1
+derr:dèr
+err:ér
+ess(e?(s|nt)?(\\s|$)):ès$1
+ess:és
+ell(e?(s|nt)?(\\s|$)):èl$1
+ell:él
+eff(e?(s|nt)?(\\s|$)):èf$1
+eff:éf
+epp(e?(s|nt)?(\\s|$)):èp$1
+epp:ép
 oi:wa
 oy:waj
 eu:ø
@@ -103,6 +119,7 @@ ll+|l'+:l
 mm+|m'+:m
 nn+|n'+:n
 pp+:p
+ix(\\s|$):iksə$1
 (\\S)x(\\s|$):$1$2
 x:ks
 cc+:k
@@ -128,6 +145,7 @@ jəd(\\s|$):je$1
 ym(\\s|$):ɔm$1
 (\\S\\S)ə(\\s|$):$1$2
 sj(\\s|$):si$1
+ək(\\s|$):ɛk$1
 
  ,:,
  \\.:.
