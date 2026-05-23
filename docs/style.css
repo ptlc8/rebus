@@ -5,6 +5,7 @@
     --gradient: linear-gradient(45deg, purple, transparent);
     font-family: var(--font);
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em 2em;
+    padding: 1em max(2em, calc(5% * 4 - 6em));
     background-color: var(--primary-color);
     background-image: var(--gradient);
     color: var(--secondary-color);
@@ -43,7 +44,7 @@ header nav a {
 section {
     display: flex;
     flex-direction: column;
-    padding: 2em;
+    padding: 2em max(2em, calc(5% * 4 - 6em));
 }
 
 section:nth-child(2n+1) {
@@ -56,7 +57,7 @@ section:last-of-type {
 
 
 footer {
-    padding: 1em;
+    padding: 1em max(2em, calc(5% * 4 - 6em));
     text-align: center;
     background-color: var(--primary-color);
     background-image: var(--gradient);
