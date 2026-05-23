@@ -5,9 +5,14 @@ tʃ:ч
 ʃt:щ
 ju:ю
 ja:я
+je:е
 
-# combos de sons étrangers au monde cyrillique
-wa:уа
+# combos palatalisés
+ɲu:ню
+ɲa:ня
+ɲe:не
+
+# sons étrangers
 ɛ̃:ен
 ɑ̃:ан
 ɔ̃:он
@@ -20,7 +25,7 @@ v:в
 ɡ:г
 d:д
 e:е
-ɛ:є
+ɛ:э
 ʒ:ж
 z:з
 i:и
@@ -38,19 +43,17 @@ u:у
 f:ф
 x:х
 ʃ:ш
-#œ:ъ
+œ:ъ
 
-# sons étrangers au monde cyrillique
-y:ю
-ɲ:н
+# sons étrangers
+y:у
+ɲ:нь
 ŋ:нг
 ɔ:о
-w:в
+w:у
 ɥ:у
-ə(\\s|$):$1
-ə:е
+ə:ъ
 ø:е
-œ:е
 `
 .split("\n")
 .filter(line => !line.startsWith("#") && line.length != 0)
