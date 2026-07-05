@@ -21,6 +21,8 @@ femm:famm
 
 #
 j'*:ʒ
+gg([eéè]):ɡʒ$1
+gg:ɡ
 g([eéèiïy]):ʒ$1
 guill:ɡij
 gu([eéèi]):ɡ$1
@@ -98,8 +100,10 @@ ou:q
 o([rnm]):ɔ$1
 ô:o
 e?au:o
+([aeéèiïouüyœø])ties?(\\s|$):$1si$2
+ties?(\\s|$):ti$1
+ies?(\\s|$):i$1
 (\\s|^)y:$1j
-ri([aeèouüyœøɑɔɛ]):rij$1
 i([aeèouüyœøɑɔɛ]):j$1
 uy([aeéèiïouüyœɑɔ]):ɥij$1
 y:i
@@ -156,7 +160,6 @@ jəd(\\s|$):je$1
 (\\S)ɡ?t(\\s|$):$1$2
 ym(\\s|$):ɔm$1
 (\\S\\S)ə(\\s|$):$1$2
-sj(\\s|$):si$1
 ək(\\s|$):ɛk$1
 
  ,:,
