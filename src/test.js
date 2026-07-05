@@ -37,7 +37,7 @@ checkEquals(
 );
 checkEquals(
     toPhonetic("En hommage au commanditaire, plusieurs éléments présents dans le tableau mettent en lumière son identité et ses vertus, à travers une symbolique complexe dont les clés font encore débat."),
-    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plyzjøʁ elemɑ̃ pʁezɑ̃ dɑ̃ lə tablo mɛtɑ̃ ɑ̃ lymjɛʁ sɔ̃ idɑ̃tite e se vɛʁty, a tʁavɛʁ yn sɛ̃bolik kɔ̃plɛks dɔ̃ le kle fɔ̃ ɑ̃kɔʁ deba."
+    "ɑ̃ ɔmaʒ o kɔmɑ̃ditɛʁ, plyzjøʁ elemɑ̃ pʁezɑ̃ dɑ̃ lə tablo mɛt ɑ̃ lymjɛʁ sɔ̃ idɑ̃tite e se vɛʁty, a tʁavɛʁ yn sɛ̃bolik kɔ̃plɛks dɔ̃ le kle fɔ̃ ɑ̃kɔʁ deba."
 );
 checkEquals(
     toPhonetic("La toile témoigne également de la forte rivalité entre peintres dans le milieu romain du début du XVIIe siècle, notamment entre Caravage et Giovanni Baglione, qui, relevant le défi, produit lui aussi un Amour divin pour le cardinal Benedetto Giustiniani, frère du marquis."),
@@ -58,7 +58,7 @@ checkEquals(
       frémissaient fébrilement sous les fresques fuligineuses d'amphithéâtres byzantins.`),
     `de eskis də fam fɛstiv ɑ̃məne pasjamɑ̃ e pasjɔnemɑ̃,
       paʁ de filozof fɑ̃task psalmodjɑ̃ de psom fosfɔʁesɑ̃,
-      fʁemisajɛ̃ febʁiləmɑ̃ su le fʁɛsk fyliʒinøz dɑ̃fiteatʁ bizɑ̃tɛ̃.`
+      fʁemisɛ febʁiləmɑ̃ su le fʁɛsk fyliʒinøz dɑ̃fiteatʁ bizɑ̃tɛ̃.`
 );
 checkEquals(
     toPhonetic("Pendant son jogging, la pie, qui observait des pies, demanda à Oggie sur son boggie : « Faut-il suggérer une suggestion, organiser une partie, prévoir des parties, annuler une sortie, défendre une démocratie, comparer des démocraties, ou raconter une péripétie ? »"),

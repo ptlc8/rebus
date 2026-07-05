@@ -34,6 +34,11 @@ qu|q'*:k
 cc([eéèiïy]):ks$1
 c([eéèiïy]):s$1
 
+# common silent plural verb endings
+aient(\\s|$):è$1
+issent(\\s|$):isse$1
+ettent(\\s|$):ète$1
+
 # nasals
 [iy]en([td]?s?(\\s|$)):jɛ̃$1
 éen([^naeéèiïouüyœɑ]|$):éɛ̃$1
